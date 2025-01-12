@@ -5,5 +5,5 @@ app.get("/", (req,res) =>
   res.json({message: "Hello from Node.js!"})
 );
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Nodde Listening on localhost:${port}`))
+const port = process.env.PORT || 8080;
+app.listen(port, () => console.log(`Node Listening on localhost:${port}`))
